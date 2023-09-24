@@ -1,0 +1,1291 @@
+/* BOOTSTRAP ICONS */
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css);
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+/* CUSTOM COLORS */
+
+:root{
+	--main: #5bb0cf;
+	--light: #fff;
+	--dark: #1f3e4a;
+	--forms: #7248b9;
+}
+.text-main{
+	color: var(--main)
+}
+.text-main-light{
+	color: var(--light);
+}
+.text-main-dark{
+	color: var(--dark);
+}
+.text-forms{
+	color: var(--forms);
+}
+
+/* GLOBAL */
+.hidden{
+	display: none;
+}
+a, a:hover, .nav-link{
+	text-decoration: none;
+	color: inherit !important;
+}
+.nav-link:hover{
+	color: #00783b !important;
+	background-color: aliceblue;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 0.95rem;
+	margin: 0;
+	padding: 5px;
+}
+ul.my-nav-links {
+	margin-bottom: 0;
+}
+li{
+	list-style: none;
+	padding: 0;
+	margin: inherit;
+}
+
+
+/* SIZING */
+	/* FONTS */
+			.fs-1v{
+				font-size: 1vw;
+			}
+			.fs-2v{
+				font-size: 2vw;
+			}
+			.fs-3v{
+				font-size: 3vw;
+			}
+			.fs-1d{
+				font-size: 1dvh;
+			}
+			.fs-2d{
+				font-size: 2.5dvh;
+			}
+			.fs-3d{
+				font-size: 3dvh;
+			}
+			.fs-5d{
+				font-size: 5dvh;
+			}
+			.fs-10d{
+				font-size: 10dvh;
+			}
+			.fs-15d{
+				font-size: 15dvh;
+			}
+			.fs-20d{
+				font-size: 20dvh;
+			}
+			.fs-30d{
+				font-size: 30dvh;
+			}
+			.fs-40d{
+				font-size: 40dvh;
+			}
+			.fs-50d{
+				font-size: 50dvh;
+			}
+			.fs-60d{
+				font-size: 60dvh;
+			}
+			.fs-70d{
+				font-size: 70dvh;
+			}
+			.fs-80d{
+				font-size: 80dvh;
+			}
+			.fs-90d{
+				font-size: 90dvh;
+			}
+			.fs-100d{
+				font-size: 100dvh;
+			}
+
+	/* HEIGHTS */
+		/* DVH */
+			.ht-1d{
+				height: 1dvh;
+			}
+			.ht-5d{
+				height: 5dvh;
+			}
+			.ht-10d{
+				height: 10dvh;
+			}
+			.ht-20d{
+				height: 20dvh;
+			}
+			.ht-30d{
+				height: 30dvh;
+			}
+			.ht-40d{
+				height: 40dvh;
+			}
+			.ht-50d{
+				height: 50dvh;
+			}
+			.ht-60d{
+				height: 60dvh;
+			}
+			.ht-70d{
+				height: 70dvh;
+			}
+			.ht-80d{
+				height: 80dvh;
+			}
+			.ht-90d{
+				height: 90dvh;
+			}
+			.ht-100d{
+				height: 100dvh;
+			}
+		
+		/* PERCENTAGE */
+			.ht-1p{
+			height: 1%;
+			}
+			.ht-5p{
+			height: 5%;
+			}
+			.ht-10p{
+			height: 10%;
+			}
+			.ht-20p{
+			height: 20%;
+			}
+			.ht-30p{
+			height: 30%;
+			}
+			.ht-40p{
+			height: 40%;
+			}
+			.ht-50p{
+			height: 50%;
+			}
+			.ht-60p{
+			height: 60%;
+			}
+			.ht-70p{
+			height: 70%;
+			}
+			.ht-80p{
+			height: 80%;
+			}
+			.ht-90p{
+			height: 90%;
+			}
+			.ht-100p{
+			height: 100%;
+			}
+
+		/* VIEWPOINT HEIGHT */
+			.ht-0{
+				height: 0;
+			}
+			.ht-1v{
+				height: 1vh !important;
+			}
+			.ht-5v{
+				height: 5vh !important;
+			}
+			.ht-10v{
+				height: 10vh !important;
+			}
+			.ht-20v{
+				height: 20vh !important;
+			}
+			.ht-30v{
+				height: 30vh !important;
+			}
+			.ht-40v{
+				height: 40vh !important;
+			}
+			.ht-50v{
+				height: 50vh !important;
+			}
+			.ht-60v{
+				height: 60vh !important;
+			}
+			.ht-70v{
+				height: 70vh !important;
+			}
+			.ht-80v{
+				height: 80vh !important;
+			}
+			.ht-90v{
+				height: 90vh !important;
+			}
+			.ht-100v{
+				height: 100vh !important;
+			}
+
+	/* WIDTHS */
+			/* DVH */
+			.wd-1d{
+				width: 1dvh;
+			}
+			.wd-5d{
+				width: 5dvh;
+			}
+			.wd-10d{
+				width: 10dvh;
+			}
+			.wd-20d{
+				width: 20dvh;
+			}
+			.wd-30d{
+				width: 30dvh;
+			}
+			.wd-40d{
+				width: 40dvh;
+			}
+			.wd-50d{
+				width: 50dvh;
+			}
+			.wd-60d{
+				width: 60dvh;
+			}
+			.wd-70d{
+				width: 70dvh;
+			}
+			.wd-80d{
+				width: 80dvh;
+			}
+			.wd-90d{
+				width: 90dvh;
+			}
+			.wd-100d{
+				width: 100dvh;
+			}
+		
+		/* PERCENTAGE */
+			.w-1p{
+			width: 1%;
+			}
+			.w-5p{
+			width: 5%;
+			}
+			.w-10p{
+			width: 10%;
+			}
+			.w-20p{
+			width: 20%;
+			}
+			.w-30p{
+			width: 30%;
+			}
+			.w-40p{
+			width: 40%;
+			}
+			.w-50p{
+			width: 50%;
+			}
+			.w-60p{
+			width: 60%;
+			}
+			.w-70p{
+			width: 70%;
+			}
+			.w-80p{
+			width: 80%;
+			}
+			.w-90p{
+			width: 90%;
+			}
+			.w-100p{
+			width: 100%;
+			}
+
+		/* VIEWPOINT width */
+			.ht-1d{
+				height: 1dvh !important;
+			}
+			.ht-5d{
+				height: 5dvh !important;
+			}
+			.ht-10d{
+				height: 10dvh !important;
+			}
+			.ht-20d{
+				height: 20dvh !important;
+			}
+			.ht-30d{
+				height: 30dvh !important;
+			}
+			.ht-40d{
+				height: 40dvh !important;
+			}
+			.ht-50d{
+				height: 50dvh !important;
+			}
+			.ht-60d{
+				height: 60dvh !important;
+			}
+			.ht-70d{
+				height: 70dvh !important;
+			}
+			.ht-80d{
+				height: 80dvh !important;
+			}
+			.ht-90d{
+				height: 90dvh !important;
+			}
+			.ht-100d{
+				height: 100dvh !important;
+			}
+
+
+/* SPACING */
+
+/* TEXT */
+
+/* FONTS */
+
+/* FONT WEIGHTS */
+.fw-bold{
+	font-weight: bold;
+}
+.fw-black{
+	font-weight: bolder;
+}
+
+/* FONT SIZES */
+
+/* ALIGNMENTS */
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.a-end{
+	display: flex;
+	align-items: flex-end;
+}
+.a-center{
+	display: flex;
+	align-items: center;
+}
+.j-center{
+	display: flex;
+	justify-content: center;
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-bottom-right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+
+/* POSITIONS */
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.push-right{
+	position: relative;
+	left: 50%;
+	text-align: end;
+}
+/* BLURS */
+.blur-1{
+	filter: blur(1px);
+}
+.blur-2{
+	filter: blur(2px);
+}
+
+.blur-3{
+	filter: blur(3px);
+}
+
+.blur-4{
+	filter: blur(4px);
+}
+
+.blur-5{
+	filter: blur(5px);
+}
+
+.blur-10{
+	filter: blur(10px);
+}
+
+
+/* OVERLAYS & BACKGROUNDS */
+.bg-main{
+	background-color: var(--main);
+}
+.bg-main-light{
+	background-color: var(--light);
+}
+.bg-main-dark{
+	background-color: var(--dark);
+}
+.bg-overlay-main{
+	background-color: rgba(0, 120, 59, 0.9);
+}
+.bg-overlay-dark{
+	background-color: rgba(47, 79, 79, 0.35);
+}
+.bg-overlay-light{
+	background-color: rgba(255, 255, 255, 0.35);
+}
+.bg-forms{
+	background-color: #734bbd;
+}
+.alert-form{
+	background-color: rgb(115, 75, 189, 0.5);
+}
+.bg-dark-blurry{
+	background-color: rgba(7, 53, 29, 0.25);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+.bg-blur{
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+.bg-dark-blur{
+	background-color: rgba(7, 53, 29, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	backdrop-filter: blur(10px);
+}
+.bg-light-blur{
+	z-index: 1;
+	background-color: rgba(242, 242, 242, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	backdrop-filter: blur(10px);
+}
+
+.success-overlay{
+	background-color: rgba(88, 126, 106, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.warning-overlay{
+	background-color: rgba(123, 126, 88, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.dark-overlay{
+	background-color: rgba(7, 53, 29, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.dark-overlay-2{
+	background-color: rgba(7, 53, 29, 0.25);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	/* backdrop-filter: blur(2px); */
+}
+.primary-overlay{
+	background-color: rgba(56, 98, 136, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.light-overlay{
+	background-color: rgba(56, 98, 136, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.dark-caption{
+	background-color: rgba(2, 121, 60, 0.2);
+	position: absolute;
+	/* top: 50%; */
+	bottom: 0;
+	left: 0;
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+/* BORDERS */
+
+/* TRANSFORMATIONS */
+
+/* TRANSITIONS */
+.slow-t{
+	transition: all .8s ease-in-out;
+}
+.fast-t{
+	transition: all .5s ease-in-out;
+}
+
+/* ANIMATIONS */
+  .slide-right{
+	animation-name: slideRight;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+  }
+  .slide-right-0{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0s;
+  }
+  .slide-right-1{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.4s;
+  }
+  .slide-right-2{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.8s;
+  }
+  .slide-right-3{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.2s;
+  }
+  .slide-right-4{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.5s;
+  }
+  .slide-right-5{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.8s;
+  }
+  .slide-right-6{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.1s;
+  }
+  .slide-right-7{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.4s;
+  }
+  .slide-right-8{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.6s;
+  }
+  .slide-right-9{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.8s;
+  }
+  .slide-right-10{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.0s;
+  }
+  .slide-right-11{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.2s;
+  }
+  .slide-right-12{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.3s;
+  }
+  .slide-right-13{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.4s;
+  }
+  .slide-right-14{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.5s;
+  }
+  .slide-right-15{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.6s;
+  }
+  .slide-right-16{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.7s;
+  }
+  .slide-right-17{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.8s;
+  }
+  .slide-right-18{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.83s;
+  }
+  .slide-right-19{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.86s;
+  }
+  .slide-right-20{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-right-21{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-right-22{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-right-23{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-right-24{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-right-25{
+	animation-name: slideRight;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4s;
+  }
+  .slide-left{
+	animation-name: slideLeft;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+  }
+  .slide-left-0{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0s;
+  }
+  .slide-left-1{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.4s;
+  }
+  .slide-left-2{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.8s;
+  }
+  .slide-left-3{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.2s;
+  }
+  .slide-left-4{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.6s;
+  }
+  .slide-left-5{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.0s;
+  }
+  .slide-left-6{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.4s;
+  }
+  .slide-left-7{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.8s;
+  }
+  .slide-left-8{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.2s;
+  }
+  .slide-left-9{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.4s;
+  }
+  .slide-left-10{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 3.8s;
+  }
+  .slide-left-11{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4.2s;
+  }
+  .slide-left-12{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 4.6s;
+  }
+  .slide-left-13{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 5.0s;
+  }
+  .slide-left-14{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 5.4s;
+  }
+  .slide-left-15{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 5.8s;
+  }
+  .slide-left-16{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 6.2s;
+  }
+  .slide-left-17{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 6.6s;
+  }
+  .slide-left-18{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 7.0s;
+  }
+  .slide-left-19{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 7.4s;
+  }
+  .slide-left-20{
+	animation-name: slideLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 7.8s;
+  }
+  .slide-up{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+  }
+  .slide-up-0s{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+  }
+  .slide-up-1s{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.4s;
+  }
+  .slide-up-2s{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.8s;
+  }
+  .slide-up-3s{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.2s;
+  }
+
+  .slide-up-0{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+  }
+  .slide-up-1{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.4s;
+  }
+  .slide-up-2{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.6s;
+  }
+  .slide-up-3{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.8s;
+  }
+  .slide-up-4{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.0s;
+  }
+  .slide-up-5{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.2s;
+  }
+  .slide-up-6{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.4s;
+  }
+  .slide-up-7{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.6s;
+  }
+  .slide-up-8{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 1.8s;
+  }
+  .slide-up-9{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.0;
+  }
+  .slide-up-10{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.1s;
+  }
+  .slide-up-11{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.2s;
+  }
+  .slide-up-12{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.3s;
+  }
+  .slide-up-13{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.4s;
+  }
+  .slide-up-14{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.5s;
+  }
+  .slide-up-15{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.55s;
+  }
+  .slide-up-16{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.6s;
+  }
+  .slide-up-17{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.65s;
+  }
+  .slide-up-18{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.70s;
+  }
+  .slide-up-19{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.75s;
+  }
+  .slide-up-20{
+	animation-name: slideUp;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 2.8s;
+  }
+  .grow-me{
+	animation-name: growMe;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+  }
+  .a-blur{
+	animation-name: animatedBlur;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+  }
+  .a-ht-90{
+	animation-name: height90;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.5s;
+  }
+  .a-fade-in{
+	animation-name: fadeIn;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.5s;
+  }
+  .a-fade-out{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode:both;
+	animation-delay: 0.5s;
+	animation-direction: reverse;
+  }
+  @keyframes growMe{
+	0%{
+		scale: 0.5;
+	}
+	50%{
+		scale: 1.5;
+		opacity: .25
+	}
+	100%{
+		scale: 1;
+		opacity: 1;
+	}
+  }
+  @keyframes slideRight {
+	0%{
+		position: relative;
+		left: 100%;
+		opacity: 0;
+	}
+	80%{
+		left: -10%;
+	}
+	100%{
+		position: relative;
+		left: 0;
+		opacity: 1;
+	}
+  }
+
+  @keyframes slideUp {
+	0%{
+		position: relative;
+		bottom: -100%;
+		opacity: 0.025;
+	}
+	80%{
+		bottom: 10%;
+	}
+	100%{
+		position: relative;
+		bottom: 0;
+		opacity: 1;
+	}
+  }
+
+  @keyframes slideLeft {
+	0%{
+		position: relative;
+		left: -100%;
+		/* background-color: rgba(2, 121, 60, 0.2); */
+		opacity: 0;
+	}
+	80%{
+		left: 10%;
+	}
+	100%{
+		position: relative;
+		left: 0;
+		opacity: 1;
+	}
+  }
+  @keyframes animatedBlur {
+	0%{
+		filter: blur(0);
+	}
+	80%{
+		filter: blur(5px);
+	}
+	100%{
+		filter: blur(10px);
+	}
+  }
+  @keyframes height90 {
+	0%{
+		height: 0;
+	}
+	80%{
+		height: 105%;
+	}
+	100%{
+		height: 80%;
+	}
+  }
+
+  @keyframes fadeIn {
+	0%{
+		opacity: 0;
+	}
+	80%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+  }
+
+  /* KEYFRAMES */
+
+/* OVERRIDES */
+
+/* TEXT VARIENTS */
+.capitalize{
+	text-transform: capitalize;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+/* NAV BARS */
+
+/* POSITIONS */
+
+.o-hidden{
+	overflow: hidden;
+}
+.o-scroll{
+	overflow: scroll;
+}
+.x-scroll{
+	overflow-x: scroll;
+}
+.x-hide{
+	overflow-x: hidden;
+}
+.y-scroll{
+	overflow-y: scroll;
+}
+.y-hidden{
+	overflow-y: hidden;
+}
+
+.my-card-title{
+	font-size: 3vw;
+text-overflow: ellipsis;
+line-clamp: 2;
+-webkit-line-clamp: 1;
+white-space: nowrap;
+overflow: hidden;
+}
+.visible{
+	visibility: visible;
+}
+.invisible{
+	visibility: hidden;
+}
+.student-btn{
+	display: none;
+}
+
+/* BLENDS */
+.lighten{
+	mix-blend-mode: lighten;
+}
