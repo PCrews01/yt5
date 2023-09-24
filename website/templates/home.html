@@ -3,21 +3,23 @@
 <div class="container ht-100p flex-center">
 	<div class="row w-100">
 		<div class="{% if kind == 'playlist' %} col-6 {% else %} col-12 {% endif %} mb-3 text-dark flex-center">
-			<form action="/" method="POST" class="wd-80p">
-				<div class="row">
-					<div class="form-floating col-10 mb-3">
-						<input type="text" id="yt-link" name="yt-link" class="form-control" oninput="checkLink()" />
-						<label for="yt-link">Copy/Paste Video Link</label>
+			<form action="/" method="POST" class="bg-light shadow wd-100p p-4 o-hidden ht-30d flex-center">
+				<div class="row flex-center">
+					<div class="col-12">
+						<div class="form-floating mb-3">
+							<input type="text" id="yt-link" name="yt-link" class="form-control" oninput="checkLink()" />
+							<label for="yt-link">Search Video/Playlist</label>
+						</div>
 					</div>
-					<div class="col-2 flex-col">
-						<div class="form-check">
+					<div class="col-12 row mb-3 flex-center">
+						<div class="form-check form-check-inline col-4">
 							<input class="form-check-input" type="checkbox" value="search" id="search"
 								name="kind">
 							<label class="form-check-label" for="kind">
 								Search?
 							</label>
 						</div>
-						<div class="form-check">
+						<div class="form-check form-check-inline col-4">
 							<input class="form-check-input" type="checkbox" value="playlist" id="playlist"
 								name="kind">
 							<label class="form-check-label" for="kind">
@@ -71,7 +73,6 @@
 			</div>
 			{% endif %}
 			{% else %}
-			<h1>yt5 created</h1>
 			{% endif %}
 		</div>
 	</div>
